@@ -1,0 +1,8 @@
+[app]
+title = SolanaTrader
+package.name = solanatrader
+source.dir = .
+source.include_exts = py
+requirements = kivy, aiohttp, websockets, solana, solders, base64
+android.permissions = INTERNET
+android.api = 33
